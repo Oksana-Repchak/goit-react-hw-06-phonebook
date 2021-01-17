@@ -1,0 +1,38 @@
+.list {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  padding: 15px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid rgb(56, 5, 30);
+  border-radius: 5px;
+  color: rgb(54, 10, 54);
+}
+.button:hover {
+  background: rgb(69, 13, 202);
+}
